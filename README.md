@@ -37,17 +37,16 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.who
 Type: `String`
-Default value: `',  '`
+Default value: `buddha'
+指明是否佛祖还是神兽来保佑我们的代码
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
+#### options.commentSymbol
 Type: `String`
-Default value: `'.'`
+Default value: `//`
 
-A string value that is used to do something else with whatever else.
+文件中拼接佛祖或神兽时使用的注释符
 
 ### Usage Examples
 
@@ -71,13 +70,11 @@ In this example, custom options are used to do something else with whatever else
 ```js
 grunt.initConfig({
   boddha_zero: {
-    options: {
-      separator: ': ',
-      punctuation: ' !!!',
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    options: { 
+        'who' : 'buddha',
+        'commentSymbol':'//'
+      },
+    dist:['examples/*.js']
   },
 })
 ```
