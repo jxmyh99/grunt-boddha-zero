@@ -1,37 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Grunt-boddha-zero by jxmyh99</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>Grunt-buddha-zero by jxmyh99</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Grunt-boddha-zero</h1>
-        <p>zero</p>
-        <p class="view"><a href="https://github.com/jxmyh99/grunt-boddha-zero">View the Project on GitHub <small>jxmyh99/grunt-boddha-zero</small></a></p>
-        <ul>
-          <li><a href="https://github.com/jxmyh99/grunt-boddha-zero/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/jxmyh99/grunt-boddha-zero/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/jxmyh99/grunt-boddha-zero">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+
+    <header>
+      <div class="container">
+        <h1>Grunt-buddha-zero</h1>
+        <h2>zero</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/jxmyh99/grunt-buddha-zero/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/jxmyh99/grunt-buddha-zero/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/jxmyh99/grunt-buddha-zero" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
         <h1>
-<a id="boddha-zero" class="anchor" href="#boddha-zero" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>boddha-zero</h1>
+<a id="buddha-zero" class="anchor" href="#buddha-zero" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>buddha-zero</h1>
 
 <blockquote>
-<p>boddha for zero</p>
+<p>buddha for zero</p>
 </blockquote>
 
 <h2>
@@ -41,22 +42,22 @@
 
 <p>If you haven't used <a href="http://gruntjs.com/">Grunt</a> before, be sure to check out the <a href="http://gruntjs.com/getting-started">Getting Started</a> guide, as it explains how to create a <a href="http://gruntjs.com/sample-gruntfile">Gruntfile</a> as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:</p>
 
-<div class="highlight highlight-source-shell"><pre>npm install boddha-zero --save-dev</pre></div>
+<div class="highlight highlight-source-shell"><pre>npm install buddha-zero --save-dev</pre></div>
 
 <p>Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:</p>
 
-<div class="highlight highlight-source-js"><pre><span class="pl-smi">grunt</span>.<span class="pl-en">loadNpmTasks</span>(<span class="pl-s"><span class="pl-pds">'</span>boddha-zero<span class="pl-pds">'</span></span>);</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">grunt</span>.<span class="pl-en">loadNpmTasks</span>(<span class="pl-s"><span class="pl-pds">'</span>buddha-zero<span class="pl-pds">'</span></span>);</pre></div>
 
 <h2>
-<a id="the-boddha_zero-task" class="anchor" href="#the-boddha_zero-task" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The "boddha_zero" task</h2>
+<a id="the-buddha_zero-task" class="anchor" href="#the-buddha_zero-task" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The "buddha_zero" task</h2>
 
 <h3>
 <a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h3>
 
-<p>In your project's Gruntfile, add a section named <code>boddha_zero</code> to the data object passed into <code>grunt.initConfig()</code>.</p>
+<p>In your project's Gruntfile, add a section named <code>buddha_zero</code> to the data object passed into <code>grunt.initConfig()</code>.</p>
 
 <div class="highlight highlight-source-js"><pre><span class="pl-smi">grunt</span>.<span class="pl-en">initConfig</span>({
-  boddha_zero<span class="pl-k">:</span> {
+  buddha_zero<span class="pl-k">:</span> {
     options<span class="pl-k">:</span> {
       <span class="pl-c">// Task-specific options go here.</span>
     },
@@ -93,7 +94,7 @@ Default value: <code>//</code></p>
 <p>In this example, the default options are used to do something with whatever. So if the <code>testing</code> file has the content <code>Testing</code> and the <code>123</code> file had the content <code>1 2 3</code>, the generated result would be <code>Testing, 1 2 3.</code></p>
 
 <div class="highlight highlight-source-js"><pre><span class="pl-smi">grunt</span>.<span class="pl-en">initConfig</span>({
-  boddha_zero<span class="pl-k">:</span> {
+  buddha_zero<span class="pl-k">:</span> {
     options<span class="pl-k">:</span> {},
     files<span class="pl-k">:</span> {
       <span class="pl-s"><span class="pl-pds">'</span>dest/default_options<span class="pl-pds">'</span></span><span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>src/testing<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>src/123<span class="pl-pds">'</span></span>],
@@ -107,7 +108,7 @@ Default value: <code>//</code></p>
 <p>In this example, custom options are used to do something else with whatever else. So if the <code>testing</code> file has the content <code>Testing</code> and the <code>123</code> file had the content <code>1 2 3</code>, the generated result in this case would be <code>Testing: 1 2 3 !!!</code></p>
 
 <div class="highlight highlight-source-js"><pre><span class="pl-smi">grunt</span>.<span class="pl-en">initConfig</span>({
-  boddha_zero<span class="pl-k">:</span> {
+  buddha_zero<span class="pl-k">:</span> {
     options<span class="pl-k">:</span> { 
         <span class="pl-s"><span class="pl-pds">'</span>who<span class="pl-pds">'</span></span> <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>buddha<span class="pl-pds">'</span></span>,
         <span class="pl-s"><span class="pl-pds">'</span>commentSymbol<span class="pl-pds">'</span></span><span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>//<span class="pl-pds">'</span></span>
@@ -132,11 +133,7 @@ Default value: <code>//</code></p>
 <p>Copyright (c) 2016 zero. Licensed under the MIT license.</p>
       </section>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/jxmyh99">jxmyh99</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
   </body>
 </html>
